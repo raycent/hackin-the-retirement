@@ -19,8 +19,6 @@ development:
   encoding: unicode
   database: hackin-the-retirement_development
   pool: 5
-  username: hackin-the-retirement
-  password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -48,13 +46,9 @@ test:
   encoding: unicode
   database: hackin-the-retirement_test
   pool: 5
-  username: hackin-the-retirement
-  password:
 
 production:
   adapter: postgresql
   encoding: unicode
   database: hackin-the-retirement_production
   pool: 5
-  username: hackin-the-retirement
-  password:
