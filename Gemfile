@@ -23,6 +23,7 @@ end
 
 gem 'react-rails'
 gem 'slim'
+gem 'puma'
 
 group :production do
   gem 'rails_12factor'
